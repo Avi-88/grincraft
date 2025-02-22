@@ -9,6 +9,13 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+  		fontFamily: {
+  			sans: [
+  				'var(--font-montserrat-reg)',
+  				'var(--font-montserrat-bld)',
+  				'sans-serif'
+  			]
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -62,7 +69,8 @@ const config: Config = {
   			marquee: 'marquee var(--duration) infinite linear',
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
   			orbit: 'orbit calc(var(--duration)*1s) linear infinite',
-  			rippling: 'rippling var(--duration) ease-out'
+  			rippling: 'rippling var(--duration) ease-out',
+  			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite'
   		},
   		keyframes: {
   			'shimmer-slide': {
@@ -115,6 +123,14 @@ const config: Config = {
   				'100%': {
   					transform: 'scale(2)',
   					opacity: '0'
+  				}
+  			},
+  			ripple: {
+  				'0%, 100%': {
+  					transform: 'translate(-50%, -50%) scale(1)'
+  				},
+  				'50%': {
+  					transform: 'translate(-50%, -50%) scale(0.9)'
   				}
   			}
   		}

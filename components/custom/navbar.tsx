@@ -50,12 +50,15 @@ export function Navbar() {
     <div
       className={cn(
         "sticky top-0 z-30 flex justify-center w-full items-center transition-colors duration-200",
-        isScrolled ? "bg-white shadow-md" : "bg-transparent"
+        isScrolled ? "bg-white md:bg-transparent shadow-md md:shadow-none shadow-[#469f93]" : ""
       )}
     >
-      <div className="flex justify-between items-center py-6 md:p-6 w-5/6 lg:w-4/5">
-        <a href="/" className=" font-bold">KSA and Associates</a>
-        <NavigationMenu className="hidden md:block">
+      <div className="flex justify-end md:justify-center relative items-center py-6 md:p-6 w-5/6 lg:w-4/5">
+        <a href="/" className=" font-bold absolute text-[#3d8b80] text-xl top-[32%] left-0">grincraft</a>
+        <NavigationMenu       className={cn(
+        "hidden md:block bg-[#469f93] shadow-md text-white rounded-full p-2",
+        // isScrolled ? "" : "bg-[#469f93] text-white rounded-full p-2"
+      )}>
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/" legacyBehavior passHref>
@@ -79,9 +82,9 @@ export function Navbar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href="#contact" legacyBehavior passHref>
+              <Link href="#book" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Contact Us
+                  Appointment
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
@@ -89,14 +92,14 @@ export function Navbar() {
         </NavigationMenu>
         <Sheet>
           <SheetTrigger asChild>
-            <Button className="md:hidden"variant="outline"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+            <Button className="md:hidden bg-[#3d8b80] text-white"variant="outline"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
 </svg>
 </Button>
           </SheetTrigger>
           <SheetContent side={"left"}>
             <SheetHeader>
-              <SheetTitle>KSA and Associates</SheetTitle>
+              <SheetTitle className="text-[#3d8b80]">grincraft</SheetTitle>
             </SheetHeader>
             <div className="grid gap-4 py-4 mt-4">
               <ul className="flex flex-col justiy-center items-center gap-4">
@@ -116,7 +119,7 @@ export function Navbar() {
                 </a>
               </SheetClose>
               <SheetClose asChild>
-              <a className="transition-all" href="#contact">
+              <a className="transition-all" href="#book">
                   Contact Us
                 </a>
               </SheetClose>
