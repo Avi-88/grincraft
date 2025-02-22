@@ -76,7 +76,7 @@ function ServicesBox() {
               className="text-md font-extralight"
             >Stay ahead of dental issues with regular checkups, cleanings, and X-rays.</span>
           </p>
-          <Button className="bg-[#3d8b80] mt-4 py-6 w-full text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <Button className="bg-[#3d8b80] mt-4 py-6 w-full text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 </svg>
 </Button>
@@ -108,7 +108,7 @@ function ServicesBox() {
               className="text-md font-extralight"
             >Enhance your smile with whitening, veneers, and aligners.</span>
           </p>
-          <Button className="bg-white mt-4 py-6 w-full text-black hover:text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <Button className="bg-white mt-4 py-6 w-full text-black hover:text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 </svg>
 </Button>
@@ -140,7 +140,7 @@ function ServicesBox() {
               className="text-md font-extralight"
             >Repair and replace teeth with fillings, crowns, bridges, and implants.</span>
           </p>
-          <Button className="bg-white mt-4 py-6 w-full text-black hover:text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <Button className="bg-white mt-4 py-6 w-full text-black hover:text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 </svg>
 </Button>
@@ -173,7 +173,7 @@ function ServicesBox() {
               className="text-md font-extralight"
             >Advanced treatments like root canals, braces, and oral surgery.</span>
           </p>
-          <Button className="bg-[#3d8b80] py-6 mt-4 w-full text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <Button className="bg-[#3d8b80] py-6 mt-4 w-full text-white hover:bg-[#262626] rounded-full">Learn more<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
   <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
 </svg>
 </Button>

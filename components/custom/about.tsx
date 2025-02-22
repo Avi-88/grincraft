@@ -24,7 +24,7 @@ function Aboutbox() {
         <div className="flex flex-col p-12">
             <h2 className="text-2xl font-medium uppercase text-green-800 lg:text-4xl">About GrinCraft</h2>
             <p className="mt-4">
-            At GrinCraft, we blend advanced dental techniques with a personalized approach, ensuring every patient receives the best care possible. Whether you're here for a routine checkup or specialized implant treatment, we’re here to make your experience seamless and stress-free.
+            At GrinCraft, we blend advanced dental techniques with a personalized approach, ensuring every patient receives the best care possible. Whether you are here for a routine checkup or specialized implant treatment, we are here to make your experience seamless and stress-free.
             </p>
 
             <div className="mt-8">
