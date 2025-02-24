@@ -16,6 +16,19 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v3
 
+      - name: Cache build
+        uses: actions/cache@v2
+        with:
+          path: ${{ github.workspace }}/.next/cache
+          key: ${{ runner.os }}-nextjs-v3-${{ hashFiles('**/package-lock.json') }}  
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ github.workspace }}/node_modules
+          key: ${{ runner.os }}-node_modules-v1-${{ hashFiles('**/package-lock.json') }} 
+          restore-keys: ${{ runner.os }}-node_modules-v1-
+
       - name: Install all dependencies
         run: npm install
 

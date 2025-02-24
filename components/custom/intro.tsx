@@ -29,7 +29,7 @@ export async function IntroBox() {
             <span className="inline-flex items-center">
           De
           <Image
-            src={`${process.env.BASE_PATH}/tooth-icon.svg`}
+            src={`/tooth-icon.svg`}
             alt="Tooth Icon"
             width={32} // Adjust size to match text
             height={32}
