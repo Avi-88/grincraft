@@ -5,6 +5,9 @@ on:
     branches:
       - main # The branch name your are commit the new changes
 
+permissions:
+  contents: write # We generate static HTML, JS, CSS so we need write access to the repo
+
 jobs:
   build:
     runs-on: ubuntu-latest
