@@ -1,11 +1,7 @@
 'use client'
 
 import React from "react";
-import ShimmerButton from "@/components/ui/shimmer-button";
- 
 import { useRouter } from 'next/navigation';
-import Image from "next/image";
-import CoreGroup from '../../public/core-group.jpg'
 
 function Aboutbox() {
   const { push } = useRouter();
