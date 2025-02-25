@@ -87,7 +87,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <footer className="w-full flex justify-center items-center">
-          <ContactNew/>
+          <Contact/>
         </footer>
       </body>
     </html>

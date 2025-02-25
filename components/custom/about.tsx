@@ -23,7 +23,7 @@ function Aboutbox() {
       {/* Content Container with Overlap */}
       <div className="max-w-lg bg-white rounded-md md:max-w-xl md:z-10 md:shadow-lg lg:absolute lg:left-[40px] xl:left-[60px] lg:w-3/5 flex items-center">
         <div className="flex flex-col p-8">
-          <h2 className="text-2xl font-medium uppercase text-green-800 lg:text-4xl">
+          <h2 className="text-2xl font-medium  text-green-800 lg:text-4xl">
             About GrinCraft
           </h2>
           <p className="mt-4">

@@ -48,7 +48,7 @@ export async function IntroBox() {
     </p>
 
     <div className="mt-12 flex flex-col max-w-2xl justify-center gap-y-5 sm:mt-10 sm:flex-row sm:gap-y-0 sm:gap-x-6">
-      <InteractiveHoverButton className="w-fit">
+      <InteractiveHoverButton className="w-fit border border-[#3d8b80]">
         <a className="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2  text-[
 #3d8b80]  animate-fade-in-left"
             href="#">

@@ -979,11 +979,20 @@ const Contact = () => {
 
 
 <section id="book" className="mb-32 mt-10">
-<h2
-                   className="text-[30px] text-center leading-[48px] md:text-[50px] md:leading-[68px] mt-5 mb-16 "
-                   >
-              We’d love to hear from you! 
-                </h2>
+  <div className="flex flex-col justify-center items-center text-center">
+  <h1
+ 
+ color="blue-gray"
+ className="mb-4 !text-3xl lg:!text-5xl"
+>
+ We&apos;re Here to Help
+</h1>
+<p className="mb-10 font-normal !text-lg lg:mb-20 mx-auto max-w-3xl !text-gray-500">
+ Whether it&apos;s a question about our services, a request for
+ appointment, or suggestions for improvement, our team is
+ eager to hear from you.
+</p>
+  </div>
 
   <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
     <iframe
@@ -1047,9 +1056,9 @@ const Contact = () => {
                   <p className="text-sm text-neutral-500">
                     grincraftdentalclinic@gmail.com
                   </p>
-                  <p className="text-sm text-neutral-500">
+                  {/* <p className="text-sm text-neutral-500">
                     1-600-890-4567
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -1068,7 +1077,7 @@ const Contact = () => {
                   <p className="mb-2 font-bold ">
                     Address
                   </p>
-                  <p className="text-base text-body-color dark:text-dark-6">
+                  <p className="text-sm text-neutral-500">
                        3rd Floor, Chordiya Corner, Above Namo
  Hospital, Gangagham - Shatrunjay Road,
  Near Shanti Nagar Society, Pune - 411048
@@ -1094,8 +1103,8 @@ const Contact = () => {
                 </div>
                 <div className="ml-6 grow">
                   <p className="mb-2 font-bold ">Land Line</p>
-                  <p className="text-neutral-500">     1-600-890-4567
-                  </p>
+                  {/* <p className="text-neutral-500">     1-600-890-4567
+                  </p> */}
                 </div>
               </div>
             </div>
