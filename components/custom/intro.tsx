@@ -33,7 +33,7 @@ export async function IntroBox() {
             alt="Tooth Icon"
             width={32} // Adjust size to match text
             height={32}
-            className="mx-1 h-8 w-8 md:h-14 md:w-14 mt-2 text-[#3d8b80]"
+            className="mx-1 h-8 w-8 md:h-14 md:w-14 mt-2"
           />
           tal Care
         </span>

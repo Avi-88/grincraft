@@ -10,6 +10,7 @@ import DotPattern from "@/components/ui/dot-pattern";
 import { Ripple } from "@/components/magicui/ripple";
 import { Navbar } from "@/components/custom/navbar";
 import Contact from "@/components/custom/contact";
+import ContactNew from "@/components/custom/contactNew";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -86,7 +87,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <footer className="w-full flex justify-center items-center">
-          <Contact/>
+          <ContactNew/>
         </footer>
       </body>
     </html>
