@@ -82,7 +82,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserratReg.variable} ${montserratBld.variable} antialiased flex flex-col justify-start items-center w-full`}
+        className={`${montserratReg.variable} ${montserratBld.variable} antialiased relative flex flex-col justify-start items-center w-full`}
       >
         <Navbar />
         {children}

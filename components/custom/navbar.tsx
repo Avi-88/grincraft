@@ -30,8 +30,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-
-
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -49,80 +47,109 @@ export function Navbar() {
   return (
     <div
       className={cn(
-        "sticky top-0 z-30 flex justify-center w-full items-center transition-colors duration-200",
-        isScrolled ? "bg-white md:bg-transparent shadow-md md:shadow-none shadow-[#469f93]" : ""
+        "fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-sm z-50 flex justify-center p-4 md:p-0 h-fit w-full items-center transition-colors duration-200",
+        isScrolled ? "shadow-sm" : ""
       )}
     >
-      <div className="flex justify-end md:justify-center relative items-center py-6 md:p-6 w-5/6 lg:w-4/5">
-        <a href="/" className=" font-bold absolute text-[#3d8b80] text-xl top-[32%] left-0">grincraft</a>
-        <NavigationMenu       className={cn(
-        "hidden md:block bg-[#469f93] shadow-md text-white rounded-full p-2",
-        // isScrolled ? "" : "bg-[#469f93] text-white rounded-full p-2"
-      )}>
+      <div className="flex justify-between md:justify-center relative items-center w-5/6 lg:w-4/5">
+        <a href="/" className="font-bold text-[#3d8b80] text-xl md:top-[30%] left-0">grincraft</a>
+        
+        <NavigationMenu className={cn(
+          "hidden md:block uppercase text-black w-full p-4",
+        )}>
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link href="/" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Home
+                  What we do
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#about" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  About
+                  Who we are
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#services" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Services
+                  Our work
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <Link href="#book" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Appointment
+                  Book a consultation
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
+
         <Sheet>
           <SheetTrigger asChild>
-            <Button className="md:hidden bg-[#3d8b80] text-white"variant="outline"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-</svg>
-</Button>
+            <Button 
+              variant="ghost" 
+              size="icon"
+              className="md:hidden hover:bg-[#3d8b80]/10"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                strokeWidth={1.5} 
+                stroke="currentColor" 
+                className="size-6 text-[#3d8b80]"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  d="M3.75 9h16.5m-16.5 6.75h16.5" 
+                />
+              </svg>
+            </Button>
           </SheetTrigger>
-          <SheetContent side={"left"}>
+          <SheetContent side="right" className="w-[300px] sm:w-[400px]">
             <SheetHeader>
-              <SheetTitle className="text-[#3d8b80]">grincraft</SheetTitle>
+              <SheetTitle className="text-[#3d8b80] text-2xl">grincraft</SheetTitle>
             </SheetHeader>
-            <div className="grid gap-4 py-4 mt-4">
-              <ul className="flex flex-col justiy-center items-center gap-4">
-              <SheetClose asChild>
-              <a className="transition-all" href="/">
-                  Home
-                </a>
-              </SheetClose>
-              <SheetClose asChild>
-              <a className="transition-all" href="/#about">
-                  About
-                </a>
-              </SheetClose>
-              <SheetClose asChild>
-              <a className="transition-all" href="/#services">
-                  Services
-                </a>
-              </SheetClose>
-              <SheetClose asChild>
-              <a className="transition-all" href="#book">
-                  Contact Us
-                </a>
-              </SheetClose>
+            <div className="grid gap-4 py-4 mt-8">
+              <ul className="flex flex-col gap-6">
+                <SheetClose asChild>
+                  <Link 
+                    href="/" 
+                    className="transition-all uppercase font-semibold tracking-wider text-[#3d8b80] hover:text-[#3d8b80]/80"
+                  >
+                    What we do
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link 
+                    href="/#about" 
+                    className="transition-all uppercase font-semibold tracking-wider text-[#3d8b80] hover:text-[#3d8b80]/80"
+                  >
+                    Who we are
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link 
+                    href="/#services" 
+                    className="transition-all uppercase font-semibold tracking-wider text-[#3d8b80] hover:text-[#3d8b80]/80"
+                  >
+                    Our work
+                  </Link>
+                </SheetClose>
+                <SheetClose asChild>
+                  <Link 
+                    href="#book" 
+                    className="transition-all uppercase font-semibold tracking-wider text-[#3d8b80] hover:text-[#3d8b80]/80"
+                  >
+                    Book a consultation
+                  </Link>
+                </SheetClose>
               </ul>
             </div>
           </SheetContent>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Apa Experience - Apa Aesthetic</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles with fallback */
+        .hero-bg {
+            background-image: url('https://apaaesthetic.com/wp-content/uploads/2023/03/apa-experience-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh; /* Ensure full height */
+        }
+        /* Fallback if image doesn't load */
+        .hero-bg-fallback {
+            background-color: #f3f4f6; /* Light gray fallback */
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">Apa Aesthetic</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="hover:text-gray-600">Home</a>
+                <a href="#" class="hover:text-gray-600">About</a>
+                <a href="#" class="hover:text-gray-600">Services</a>
+                <a href="#" class="hover:text-gray-600">Contact</a>
+            </div>
+            <!-- Mobile menu button (basic) -->
+            <button class="md:hidden">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-bg hero-bg-fallback flex items-center justify-center text-white">
+        <div class="text-center px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">The Apa Experience</h1>
+            <p class="text-lg md:text-2xl max-w-2xl mx-auto">
+                Apa Aesthetic is the unrivaled dental destination for want-based treatment and life-changing results.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-16">
+        <!-- Step Into Comfort -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Step Into Comfort</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2">
+                    <p class="text-lg">
+                        Our offices reflect our standard of care. Museum-worthy art adorns the walls, while a client comfort list offers access to a cashmere blanket, noise-canceling headphones, a ceiling-mounted TV and an array of CBD confections.
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500">[Image Placeholder]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Connect and Communicate -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Connect and Communicate</h2>
+            <div class="flex flex-col md:flex-row-reverse gap-8">
+                <div class="md:w-1/2">
+                    <p class="text-lg">
+                        From your smile makeover to aftercare, we prioritize open communication. At each step, we discuss your goals, present treatment options and welcome your feedback.
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500">[Image Placeholder]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Customization -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold mb-6">Experience Customization</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+                <div class="md:w-1/2">
+                    <p class="text-lg">
+                        Dr. Apa has assembled the world's most accomplished ceramists, in technical expertise and artistic talent, to deliver one-of-a-kind smiles.
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+                        <span class="text-gray-500">[Image Placeholder]</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Apa Aesthetic. All rights reserved.</p>
+            <div class="mt-4 space-x-4">
+                <a href="#" class="hover:text-gray-300">New York</a>
+                <a href="#" class="hover:text-gray-300">Los Angeles</a>
+                <a href="#" class="hover:text-gray-300">Dubai</a>
+                <a href="#" class="hover:text-gray-300">Miami</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for basic interactivity -->
+    <script>
+        // Smooth scroll (not fully utilized here, but included for future anchors)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
