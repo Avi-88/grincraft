@@ -49,13 +49,13 @@ export function Navbar() {
   return (
     <div
       className={cn(
-        "bg-[#fafaf4] fixed z-30 flex justify-center p-4 md:p-0 h-fit w-full items-center transition-colors duration-200",
+        "bg-[#fafaf4] fixed z-30 flex justify-center p-4 mg:p-0 h-fit w-full items-center transition-colors duration-200",
       )}
     >
-      <div className="flex justify-end md:justify-center relative items-center  w-5/6 lg:w-4/5">
-        <a href="/" className=" font-bold absolute text-[#3d8b80] text-xl md:top-[30%] left-0">grincraft</a>
+      <div className="flex justify-end mg:justify-center relative items-center  w-5/6 lg:w-4/5">
+        <a href="/" className=" font-bold absolute text-[#3d8b80] text-xl mg:top-[30%] left-0">grincraft</a>
         <NavigationMenu       className={cn(
-        "hidden md:block uppercase  text-black w-full p-4",
+        "hidden mg:block uppercase  text-black w-full p-4",
         // isScrolled ? "" : "bg-[#469f93] text-white rounded-full p-2"
       )}>
           <NavigationMenuList>
@@ -91,7 +91,7 @@ export function Navbar() {
         </NavigationMenu>
         <Sheet>
           <SheetTrigger asChild>
-            <Button className="md:hidden bg-[#3d8b80] text-white"variant="outline"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+            <Button className="mg:hidden bg-[#3d8b80] text-white"variant="outline"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
 </svg>
 </Button>
