@@ -14,18 +14,15 @@ export function ContactNew() {
         >
           Customer Care
         </h5> */}
-        <h1
- 
-          color="blue-gray"
-          className="mb-4 !text-3xl lg:!text-5xl"
-        >
-          We&apos;re Here to Help
-        </h1>
-        <p className="mb-10 font-normal !text-lg lg:mb-20 mx-auto max-w-3xl !text-gray-500">
-          Whether it&apos;s a question about our services, a request for
+
+        <h1 className="text-2xl font-extrabold text-white  mb-4 uppercase tracking-wide">
+        We&apos;re Here to Help
+                </h1>
+                <p className="text-white text-base">
+                Whether it&apos;s a question about our services, a request for
           appointment, or suggestions for improvement, our team is
           eager to hear from you.
-        </p>
+                </p>
         <div className="grid grid-cols-1 gap-x-12 gap-y-6 lg:grid-cols-2 items-start">
           {/* <img
             src="/image/map.svg"

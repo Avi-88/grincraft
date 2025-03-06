@@ -2,6 +2,10 @@ import { IntroBox } from "@/components/custom/intro";
 //import { Clients } from "@/components/custom/clients";
 import Aboutbox from "@/components/custom/about";
 import ServicesBox from "@/components/custom/services";
+import ServiceBox from "@/components/custom/services-new";
+import TransformationGrid from "@/components/custom/transformation-grid";
+
+
 
 export default function Home() {
   return (
@@ -11,8 +15,9 @@ export default function Home() {
         {/* <Clients /> */}
 
         <Aboutbox />
-        
-        <ServicesBox />
+        <ServiceBox />
+        <TransformationGrid />  
+        {/* <ServicesBox /> */}
       </main>
     // </div>
   );

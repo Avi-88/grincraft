@@ -1,5 +1,8 @@
 import type { Config } from "tailwindcss";
 
+const default_theme = require('tailwindcss/defaultTheme')
+
+
 const config: Config = {
     darkMode: ["class"],
     content: [
@@ -16,6 +19,12 @@ const config: Config = {
   				'sans-serif'
   			]
   		},
+		screens: {
+			// adding xs to the rest
+			mg: "992px",
+			// if you did not add this, you would have only "xs"
+			...default_theme.screens,
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

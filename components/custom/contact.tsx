@@ -979,19 +979,15 @@ const Contact = () => {
 
 
 <section id="book" className="mb-32 mt-10">
-  <div className="flex flex-col justify-center items-center text-center">
-  <h1
- 
- color="blue-gray"
- className="mb-4 !text-3xl lg:!text-5xl"
->
- We&apos;re Here to Help
-</h1>
-<p className="mb-10 font-normal !text-lg lg:mb-20 mx-auto max-w-3xl !text-gray-500">
- Whether it&apos;s a question about our services, a request for
- appointment, or suggestions for improvement, our team is
- eager to hear from you.
-</p>
+  <div className="text-center max-w-4xl mx-auto mb-20">
+  <h1 className="text-2xl font-extrabold  mb-4 uppercase tracking-wide">
+        We&apos;re Here to Help
+                </h1>
+                <p className=" text-base">
+                Whether it&apos;s a question about our services, a request for
+          appointment, or suggestions for improvement, our team is
+          eager to hear from you.
+                </p>
   </div>
 
   <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
@@ -1031,7 +1027,7 @@ const Contact = () => {
                   className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none ">Message</label>
             </div>
             <button type="button"
-                className="mb-6 w-full rounded bg-[#469f93] text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal   lg:mb-0">
+                className="mb-6 w-full rounded bg-[#1a1a1a] text-white px-6 pt-2.5 pb-2 text-xs font-medium uppercase leading-normal   lg:mb-0">
                 Send
               </button>
           </form>
@@ -1041,7 +1037,7 @@ const Contact = () => {
             <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
               <div className="flex items-start">
                 <div className="shrink-0">
-                  <div className="inline-block rounded-md bg-[#cae8e3] p-4 text-primary">
+                  <div className="inline-block rounded-md bg-[#cae8e3]/60 p-4 text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                       stroke="currentColor" className="h-6 w-6">
                       <path stroke-linecap="round" stroke-linejoin="round"
@@ -1065,7 +1061,7 @@ const Contact = () => {
             <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
               <div className="flex items-start">
                 <div className="srink-0">
-                  <div className="inline-block rounded-md bg-[#cae8e3] p-4 text-primary">
+                  <div className="inline-block rounded-md bg-[#cae8e3]/60 p-4 text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                       stroke="currentColor" className="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round"
@@ -1089,7 +1085,7 @@ const Contact = () => {
               className="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:mb-12 lg:w-full lg:px-6 xl:w-6/12">
               <div className="align-start flex">
                 <div className="shrink-0">
-                  <div className="inline-block rounded-md bg-[#cae8e3] p-4 text-primary">
+                  <div className="inline-block rounded-md bg-[#cae8e3]/60 p-4 text-primary">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                       x="0px" y="0px" className="w-7 h-7"
                       viewBox="0 0 111.756 122.879" enable-background="new 0 0 111.756 122.879" >
@@ -1111,7 +1107,7 @@ const Contact = () => {
             <div className="w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:mb-12 xl:w-6/12">
               <div className="align-start flex">
                 <div className="shrink-0">
-                  <div className="inline-block rounded-md bg-[#cae8e3] p-4 text-primary">
+                  <div className="inline-block rounded-md bg-[#cae8e3]/60 p-4 text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                       stroke="currentColor" className="w-6 h-6">
                       <path stroke-linecap="round" stroke-linejoin="round"
