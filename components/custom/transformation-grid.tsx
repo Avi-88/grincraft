@@ -26,7 +26,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/ApaSiteBeforeAfter-Charlotte-C-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/ApaSiteBeforeAfter-Charlotte-C-1024x1024.jpg"
+                src="/BA1.JPG"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
@@ -41,7 +42,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/NinaM-BA-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/NinaM-BA-1024x1024.jpg"
+                src="/BA3.JPG"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
@@ -56,7 +58,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/ApaSiteBeforeAfter-Steve-L-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/ApaSiteBeforeAfter-Steve-L-1024x1024.jpg"
+                src="/BA2.PNG"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
@@ -71,7 +74,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/SchikS-BA-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/SchikS-BA-1024x1024.jpg"
+                src="/BA4.JPG"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
@@ -86,7 +90,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/ApaSiteBeforeAfter-Lindsey-E-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/ApaSiteBeforeAfter-Lindsey-E-1024x1024.jpg"
+                src="/BA5.JPG"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
@@ -101,7 +106,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/NassrineT-BA-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/NassrineT-BA-1024x1024.jpg"
+                src="/BA6.JPG"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
@@ -116,7 +122,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/DovG-BA-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/DovG-BA-1024x1024.jpg"
+                src="/BA7.jpg"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
@@ -131,7 +138,8 @@ function TransformationGrid() {
           <FadeIn direction="up" delay={600}>
             <div className="group relative aspect-square overflow-hidden">
               <Image
-                src="https://apaaesthetic.com/wp-content/uploads/2024/11/Leen-Full-Face-Side-by-Side-1024x1024.jpg"
+                // src="https://apaaesthetic.com/wp-content/uploads/2024/11/Leen-Full-Face-Side-by-Side-1024x1024.jpg"
+                src="/BA8.jpg"
                 alt="Smile transformation"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out group-hover:scale-105"
